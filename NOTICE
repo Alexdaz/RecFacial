@@ -1,0 +1,24 @@
+Evaluación de reconocimiento facial (recfacial)
+Copyright 2026 Alex Díaz
+
+Este producto incluye software desarrollado por Alex Díaz.
+
+-------------------------------------------------------------------------------
+Modelos de terceros
+-------------------------------------------------------------------------------
+
+Los modelos de redes neuronales NO se incluyen en este repositorio. El
+programa los descarga desde OpenCV Zoo (https://github.com/opencv/opencv_zoo)
+la primera vez que se ejecuta. Cada modelo pertenece a sus autores y se rige
+por su propia licencia:
+
+  - YuNet (face_detection_yunet_2023mar.onnx) - Licencia MIT.
+    Wu, W., Peng, H. y Yu, S. (2023). YuNet: A tiny millisecond-level face
+    detector. Machine Intelligence Research, 20(5), 656-665.
+    https://doi.org/10.1007/s11633-023-1423-y
+
+  - SFace (face_recognition_sface_2021dec.onnx) - Licencia Apache 2.0.
+    Zhong, Y., Deng, W., Hu, J., Zhao, D., Li, X. y Wen, D. (2021). SFace:
+    Sigmoid-constrained hypersphere loss for robust face recognition. IEEE
+    Transactions on Image Processing, 30, 2587-2598.
+    https://doi.org/10.1109/TIP.2020.3048632
